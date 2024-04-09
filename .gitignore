@@ -3,6 +3,8 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+*package-lock.json
+
 # dotenv files
 .env
 
