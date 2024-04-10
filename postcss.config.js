@@ -1,6 +1,6 @@
-module.exports = {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+moudle.exports = {
+    plugin: {
+        tailwindcss: {},
+        autprefixer: {}
     }
-  }
+}

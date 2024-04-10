@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStream", "WebStream.csproj", "{EDFD52B8-69EB-4C1C-BDFB-B0A92E033BD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDFD52B8-69EB-4C1C-BDFB-B0A92E033BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFD52B8-69EB-4C1C-BDFB-B0A92E033BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFD52B8-69EB-4C1C-BDFB-B0A92E033BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFD52B8-69EB-4C1C-BDFB-B0A92E033BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F7F2615-B5F8-4FF3-8903-27FB6C8D3879}
+	EndGlobalSection
+EndGlobal

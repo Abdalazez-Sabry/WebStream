@@ -1,0 +1,24 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="w-full h-screen flex flex-col">
+    <div class="w-full flex justify-center">
+        <h1 class="text-4xl text-red-500">Welcome To WebStream</h1>
+    </div>
+    <div class="w-full flex-1 flex justify-center items-center gap-5">
+        <button @onclick="handleJoin" type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Join a channel</button>
+        <button @onclick="handleCreate" type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Create a new channel</button>
+    </div>
+</div>
+
+@code {
+    void handleJoin() {
+        Console.WriteLine("To be implemented");
+    }
+
+    void handleCreate() {
+        Console.WriteLine("To be implemented");
+    }
+}
+
