@@ -1,0 +1,24 @@
+@namespace WebStream.Components
+
+<MudStack Spacing="@(_expanded? 2 : 0)">
+    <MudButton OnClick="OnExpandCollapseClick" Variant="@(_expanded? Variant.Filled : Variant.Outlined)" Color="Color.Primary">Create New Channel</MudButton>
+    <MudCollapse Expanded="_expanded">
+        <div class="flex flex-row gap-2">
+            <MudTextField @bind-Value="TextValue" Label="Standard" Variant="Variant.Text"></MudTextField>
+            <MudButton Href="/stream" Variant="Variant.Outlined" Color="Color.Secondary">Join</MudButton>
+        </div>
+    </MudCollapse>
+</MudStack>
+
+@code {
+    bool _expanded = false;
+    public string TextValue {get; set;} = "";
+
+    private void OnExpandCollapseClick() {
+        _expanded = !_expanded;
+    }
+
+    private void OnSubmit() {
+
+    }
+}

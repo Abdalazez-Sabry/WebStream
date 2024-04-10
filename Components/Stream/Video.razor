@@ -1,0 +1,12 @@
+@namespace WebStream.Components
+@inject IJSRuntime JS
+
+<video id="@MyStreamId" class="w-screen h-screen" controls></video>
+
+@code {
+    string MyStreamId {get; set;} = "myStream";
+
+    protected async override Task OnAfterRenderAsync(bool firstRender) {
+        await JS.InvokeVoidAsync("updateVideoSource", MyStreamId);
+    }
+}
